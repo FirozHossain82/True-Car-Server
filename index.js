@@ -50,7 +50,7 @@ async function run(){
         const buyersCollection = client.db('usedCar').collection('buyers');
         const sellersCollection = client.db('usedCar').collection('sellers');
         const productsCollection = client.db('usedCar').collection('products');
-        const paymentsCollection = client.db('doctorsPortal').collection('payments');
+        const paymentsCollection = client.db('usedCar').collection('payments');
 
         // admin verify
         const verifyAdmin = async (req, res, next) =>{
